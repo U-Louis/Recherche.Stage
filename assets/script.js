@@ -1,2 +1,2 @@
-let eng = document.getElementById("eng");
-eng.innerHTML = "";
+/* let eng = document.getElementById("eng");
+eng.innerHTML = ""; */
