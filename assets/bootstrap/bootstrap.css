@@ -4480,7 +4480,7 @@ fieldset:disabled .btn {
     padding: 0.25rem 0.75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: transparent;
+    background-color: rgb(26, 64, 202);
     border: 1px solid transparent;
     transition: box-shadow 0.15s ease-in-out;
 }
