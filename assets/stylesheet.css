@@ -6,3 +6,8 @@ body {
     width: 2rem;
     border-radius: .2rem;
 }
+
+.lang {
+    width: 3rem;
+    cursor: pointer;
+}
