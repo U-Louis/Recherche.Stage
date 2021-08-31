@@ -8,7 +8,6 @@ frBtn.onclick = function() { setLangage(fr, eng, frBtn, engBtn); }
 let setLangage = (langageIn, langageOut, btnIn, btnOut) => {
     langageOut.style.display = "none";
     langageIn.style.display = "block";
-    console.log(btnIn);
     btnIn.style.filter = "grayscale(0%)";
     btnOut.style.filter = "grayscale(100%)";
 }
