@@ -1,3 +1,4 @@
+/* Language */
 let eng = document.getElementById("eng");
 let fr = document.getElementById("fr");
 let engBtn = document.getElementById("btnradio1");
@@ -15,3 +16,14 @@ let setLangage = (langageIn, langageOut, btnIn, btnOut) => {
 (function() {
     setLangage(fr, eng, frBtn, engBtn);
 })();
+
+
+/* Popover */
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function(popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+})
+var popover = new bootstrap.Popover(document.querySelector('.example-popover'), {
+    trigger: 'focus'
+})
+document.getElementById("goToClipBoard").onclick = function() { navigator.clipboard.writeText("louis.urbani@yahoo.com"); }
